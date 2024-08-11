@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1 id="workweek">If the year was a 40 hour work week, it would be: </h1>
   <div id="time">
       <script>
         var now = new Date();
@@ -16,6 +15,7 @@
         var oneDay = 1000 * 60 * 60 * 24;
         var day = Math.floor(diff / oneDay);
         document.getElementById("workweek").innerHTML = day;
+        <h1 id="workweek">If the year was a 40 hour work week, it would be: </h1>
       </script>
   </div>
 </body>
